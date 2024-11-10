@@ -1,0 +1,24 @@
+{
+  "name": "yukinord",
+  "displayName": "Yukinord",
+  "description": "Dark theme inspired by Nord and Nord Deep.",
+  "repository": "https://github.com/yukina3230/nord-dark",
+  "publisher": "Yukina",
+  "version": "0.0.1",
+  "icon": "assets/icon.png",
+  "engines": {
+    "vscode": "^1.95.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Yukinord",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Yukinord-color-theme.json"
+      }
+    ]
+  }
+}
