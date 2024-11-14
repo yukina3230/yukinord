@@ -407,7 +407,6 @@
 				"entity.name.type.enum"
 			],
 			"settings": {
-				"fontStyle": "bold",
 				"foreground": "#a3be8c"
 			}
 		},
@@ -749,6 +748,7 @@
 			"name": "Variable Enummember",
 			"scope": "variable.other.enummember",
 			"settings": {
+				"fontStyle": "bold",
 				"foreground": "#a3be8c"
 			}
 		},
