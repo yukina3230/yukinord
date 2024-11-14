@@ -2,9 +2,9 @@
   "name": "yukinord",
   "displayName": "Yukinord",
   "description": "Dark theme inspired by Nord and Nord Deep.",
-  "repository": "https://github.com/yukina3230/nord-dark",
+  "repository": "https://github.com/yukina3230/yukinord",
   "publisher": "Yukina",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "icon": "assets/icon.png",
   "engines": {
     "vscode": "^1.95.0"

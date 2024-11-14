@@ -1,6 +1,7 @@
 {
 	"name": "Yukinord",
 	"type": "dark",
+	"semanticHighlighting": true,
 	"colors": {
 		"activityBar.activeBorder": "#88c0d0",
 		"activityBar.background": "#1d2129",
