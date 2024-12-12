@@ -2,13 +2,13 @@ Dark theme inspired by [Nord](https://marketplace.visualstudio.com/items?itemNam
 
 ## **VSCode**
 
-Now available on [open-vsx.org](https://open-vsx.org/extension/Yukina/yukinord)
+Available on [open-vsx.org](https://open-vsx.org/extension/Yukina/yukinord)
 
 ![""](https://raw.githubusercontent.com/yukina3230/yukinord/main/assets/preview.png)
 
 ## **Helix**
 
-Get Helix version [here](https://marketplace.visualstudio.com/items?itemName=arcticicestudio.nord-visual-studio-code)
+Get Helix version [here](https://github.com/yukina3230/yukinord_helix)
 
 **Installation**
 
