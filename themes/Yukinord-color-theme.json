@@ -80,7 +80,7 @@
 		"editorBracketMatch.background": "#5e81ac33",
 		"editorBracketMatch.border": "#5e81ac",
 		"editorCodeLens.foreground": "#78849b",
-		"editorCursor.foreground": "#e5e9f0",
+		"editorCursor.foreground": "#eceff4",
 		"editorError.border": "#bf616a4d",
 		"editorError.foreground": "#bf616a",
 		"editorGroup.border": "#3b4252",
@@ -104,9 +104,9 @@
 		"editorInlayHint.background": "#292e39",
 		"editorInlayHint.foreground": "#81a1c1",
 		"editorLightBulb.foreground": "#ffd700",
-		"editorLineNumber.activeForeground": "#e5e9f0",
-		"editorLineNumber.dimmedForeground": "#78849b",
-		"editorLineNumber.foreground": "#78849b",
+		"editorLineNumber.activeForeground": "#eceff4",
+		"editorLineNumber.dimmedForeground": "#616e88",
+		"editorLineNumber.foreground": "#616e88",
 		"editorLink.activeForeground": "#88c0d0",
 		"editorOverviewRuler.addedForeground": "#a3be8c",
 		"editorOverviewRuler.border": "#00000000",
@@ -482,7 +482,7 @@
 			"name": "Entity Name Tag",
 			"scope": "entity.name.tag",
 			"settings": {
-				"foreground": "#81a1c1"
+				"foreground": "#88c0d0"
 			}
 		},
 		{
@@ -707,14 +707,14 @@
 			"name": "Support Type",
 			"scope": "support.type",
 			"settings": {
-				"foreground": "#a3be8c"
+				"foreground": "#d8dee9"
 			}
 		},
 		{
 			"name": "Support Type Exception",
 			"scope": "support.type.exception",
 			"settings": {
-				"foreground": "#a3be8c"
+				"foreground": "#d8dee9"
 			}
 		},
 		{
@@ -1113,6 +1113,7 @@
 			"name": "[Java] Storage Type Generic",
 			"scope": "source.java storage.type.generic",
 			"settings": {
+				"fontStyle": "italic",
 				"foreground": "#a3be8c"
 			}
 		},
@@ -1281,7 +1282,7 @@
 			"scope": "text.html.markdown markup.bold",
 			"settings": {
 				"fontStyle": "bold",
-				"foreground": "#88c0d0"
+				"foreground": "#d8dee9"
 			}
 		},
 		{
@@ -1308,7 +1309,7 @@
 				"text.html.markdown markup.inline.raw punctuation.definition.raw"
 			],
 			"settings": {
-				"foreground": "#d08770"
+				"foreground": "#d8dee9"
 			}
 		},
 		{
@@ -1316,7 +1317,7 @@
 			"scope": "text.html.markdown markup.italic",
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#88c0d0"
+				"foreground": "#d8dee9"
 			}
 		},
 		{
@@ -1386,14 +1387,14 @@
 			"name": "[Markdown] Punctuation Definition Bold",
 			"scope": "text.html.markdown punctuation.definition.bold",
 			"settings": {
-				"foreground": "#88c0d0"
+				"foreground": "#d8dee9"
 			}
 		},
 		{
 			"name": "[Markdown] Punctuation Definition Italic",
 			"scope": "text.html.markdown punctuation.definition.italic",
 			"settings": {
-				"foreground": "#88c0d0"
+				"foreground": "#d8dee9"
 			}
 		},
 		{
