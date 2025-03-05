@@ -12,6 +12,6 @@ Get Helix version [here](https://github.com/yukina3230/yukinord_helix)
 
 **Installation**
 
-Copy `yukinord.toml` to `~/.config/helix/themes` or `%AppData%\helix\themes on Windows`.
+Copy `yukinord.toml` to `~/.config/helix/themes/` or `%AppData%\helix\themes\ on Windows`.
 
 ![""](https://raw.githubusercontent.com/yukina3230/yukinord_helix/refs/heads/main/preview.png)
