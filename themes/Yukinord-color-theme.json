@@ -150,7 +150,7 @@
 		"editor.findRangeHighlightBorder": "#d08770ee",
 		"editor.focusedStackFrameHighlightBackground": "default",
 		"editor.foldBackground": "default",
-		"editor.foldPlaceholderForeground": "#78849b",
+		"editor.foldPlaceholderForeground": "#d8dee999",
 		"editor.foreground": "#d8dee9",
 		"editor.hoverHighlightBackground": "#5e81ac66",
 		"editor.inactiveSelectionBackground": "#5e81ac66",
@@ -159,7 +159,7 @@
 		"editor.lineHighlightBackground": "#1d2129",
 		"editor.lineHighlightBorder": "#434c5eaa",
 		"editor.linkedEditingBackground": "default",
-		"editor.placeholder.foreground": "default",
+		"editor.placeholder.foreground": "#d8dee999",
 		"editor.rangeHighlightBackground": "#434c5eaa",
 		"editor.rangeHighlightBorder": "default",
 		"editor.selectionBackground": "#5e81ac99",
@@ -279,7 +279,7 @@
 		"editorMarkerNavigationInfo.headerBackground": "default",
 		"editorMarkerNavigationWarning.background": "default",
 		"editorMarkerNavigationWarning.headerBackground": "default",
-		"editorMinimap.inlineChatInserted": "default",
+		"editorMinimap.inlineChatInserted": "#a3be8c",
 		"editorMultiCursor.primary.background": "default",
 		"editorMultiCursor.primary.foreground": "#eceff4",
 		"editorMultiCursor.secondary.background": "default",
@@ -297,8 +297,8 @@
 		"editorOverviewRuler.findMatchForeground": "#d08770ee",
 		"editorOverviewRuler.incomingContentForeground": "default",
 		"editorOverviewRuler.infoForeground": "#81a1c1",
-		"editorOverviewRuler.inlineChatInserted": "default",
-		"editorOverviewRuler.inlineChatRemoved": "default",
+		"editorOverviewRuler.inlineChatInserted": "#a3be8c",
+		"editorOverviewRuler.inlineChatRemoved": "#bf616a",
 		"editorOverviewRuler.modifiedForeground": "#ebcb8b",
 		"editorOverviewRuler.rangeHighlightForeground": "#5e81acee",
 		"editorOverviewRuler.selectionHighlightForeground": "#5e81acee",
@@ -350,6 +350,13 @@
 		"extensionIcon.verifiedForeground": "default",
 		"focusBorder": "#88c0d0",
 		"foreground": "#d8dee9",
+		"gauge.background": "default",
+		"gauge.border": "default",
+		"gauge.errorBackground": "default",
+		"gauge.errorForeground": "default",
+		"gauge.foreground": "default",
+		"gauge.warningBackground": "default",
+		"gauge.warningForeground": "default",
 		"git.blame.editorDecorationForeground": "default",
 		"gitDecoration.addedResourceForeground": "#a3be8c",
 		"gitDecoration.conflictingResourceForeground": "#d08770",
@@ -363,15 +370,15 @@
 		"gitDecoration.untrackedResourceForeground": "#81a1c1",
 		"icon.foreground": "#d8dee9",
 		"inlineChat.background": "default",
-		"inlineChat.border": "#3b4252",
+		"inlineChat.border": "default",
 		"inlineChat.foreground": "default",
 		"inlineChat.shadow": "#00000066",
-		"inlineChatDiff.inserted": "default",
-		"inlineChatDiff.removed": "default",
-		"inlineChatInput.background": "default",
-		"inlineChatInput.border": "default",
-		"inlineChatInput.focusBorder": "default",
-		"inlineChatInput.placeholderForeground": "default",
+		"inlineChatDiff.inserted": "#a3be8c66",
+		"inlineChatDiff.removed": "#bf616a66",
+		"inlineChatInput.background": "#1d2129",
+		"inlineChatInput.border": "#3b4252",
+		"inlineChatInput.focusBorder": "#88c0d0",
+		"inlineChatInput.placeholderForeground": "#d8dee999",
 		"inlineEdit.gutterIndicator.background": "default",
 		"inlineEdit.gutterIndicator.primaryBackground": "default",
 		"inlineEdit.gutterIndicator.primaryForeground": "default",
@@ -390,6 +397,7 @@
 		"inlineEdit.originalBorder": "default",
 		"inlineEdit.originalChangedLineBackground": "default",
 		"inlineEdit.originalChangedTextBackground": "default",
+		"inlineEdit.tabWillAcceptBorder": "#3b4252",
 		"inlineEdit.wordReplacementView.background": "default",
 		"input.background": "#292e39",
 		"input.border": "#3b4252",
@@ -475,6 +483,7 @@
 		"mergeEditor.conflict.unhandledUnfocused.border": "default",
 		"mergeEditor.conflictingLines.background": "default",
 		"minimap.background": "#1d2129",
+		"minimap.chatEditHighlight": "#88c0d0",
 		"minimap.errorHighlight": "#bf616aee",
 		"minimap.findMatchHighlight": "#d08770ee",
 		"minimap.foregroundOpacity": "default",
@@ -544,6 +553,8 @@
 		"panelTitle.activeForeground": "#eceff4",
 		"panelTitle.border": "default",
 		"panelTitle.inactiveForeground": "#d8dee999",
+		"panelTitleBadge.background": "#88c0d0",
+		"panelTitleBadge.foreground": "#1d2129",
 		"peekView.border": "#88c0d0",
 		"peekViewEditor.background": "#1d2129",
 		"peekViewEditor.matchHighlightBackground": "#5e81ac33",
@@ -781,6 +792,8 @@
 		"terminalStickyScroll.background": "default",
 		"terminalStickyScroll.border": "default",
 		"terminalStickyScrollHover.background": "default",
+		"terminalSymbolIcon.aliasForeground": "default",
+		"terminalSymbolIcon.flagForeground": "default",
 		"testing.coverCountBadgeBackground": "default",
 		"testing.coverCountBadgeForeground": "default",
 		"testing.coveredBackground": "default",
@@ -989,7 +1002,7 @@
 			"name": "Entity Name Tag",
 			"scope": "entity.name.tag",
 			"settings": {
-				"foreground": "#88c0d0"
+				"foreground": "#81a1c1"
 			}
 		},
 		{
@@ -1378,7 +1391,7 @@
 				"source.css entity.name.tag.wildcard.css"
 			],
 			"settings": {
-				"foreground": "#88c0d0"
+				"foreground": "#81a1c1"
 			}
 		},
 		{
@@ -1561,7 +1574,7 @@
 			"name": "[Java](JavaDoc) Meta Tag Template Value",
 			"scope": "source.java meta.tag.template.value.javadoc",
 			"settings": {
-				"foreground": "#88c0d0"
+				"foreground": "#81a1c1"
 			}
 		},
 		{
@@ -1788,8 +1801,7 @@
 			"name": "[Markdown] Markup Bold",
 			"scope": "text.html.markdown markup.bold",
 			"settings": {
-				"fontStyle": "bold",
-				"foreground": "#d8dee9"
+				"fontStyle": "bold"
 			}
 		},
 		{
@@ -1799,7 +1811,7 @@
 				"text.html.markdown markup.fenced_code.block punctuation.definition"
 			],
 			"settings": {
-				"foreground": "#d8dee9"
+				"foreground": "#ebcb8b"
 			}
 		},
 		{
@@ -1816,22 +1828,22 @@
 				"text.html.markdown markup.inline.raw punctuation.definition.raw"
 			],
 			"settings": {
-				"foreground": "#d8dee9"
+				"foreground": "#ebcb8b"
 			}
 		},
 		{
 			"name": "[Markdown] Markup Italic",
 			"scope": "text.html.markdown markup.italic",
 			"settings": {
-				"fontStyle": "italic",
-				"foreground": "#d8dee9"
+				"fontStyle": "italic"
 			}
 		},
 		{
 			"name": "[Markdown] Markup Link",
 			"scope": "text.html.markdown markup.underline.link",
 			"settings": {
-				"fontStyle": "underline"
+				"fontStyle": "underline",
+				"foreground": "#8fbcbb"
 			}
 		},
 		{
@@ -1852,7 +1864,7 @@
 			"name": "[Markdown] Markup Quote Punctuation Definition",
 			"scope": "text.html.markdown markup.quote",
 			"settings": {
-				"foreground": "#d8dee97e"
+				"foreground": "#d08770"
 			}
 		},
 		{
@@ -1894,14 +1906,14 @@
 			"name": "[Markdown] Punctuation Definition Bold",
 			"scope": "text.html.markdown punctuation.definition.bold",
 			"settings": {
-				"foreground": "#d8dee9"
+				"fontStyle": "bold"
 			}
 		},
 		{
 			"name": "[Markdown] Punctuation Definition Italic",
 			"scope": "text.html.markdown punctuation.definition.italic",
 			"settings": {
-				"foreground": "#d8dee9"
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -1922,7 +1934,7 @@
 			"name": "[Markdown] Punctuation Definition List Begin",
 			"scope": "text.html.markdown punctuation.definition.list.begin.markdown",
 			"settings": {
-				"foreground": "#88c0d0"
+				"foreground": "#81a1c1"
 			}
 		},
 		{
@@ -1936,7 +1948,7 @@
 			"name": "[Markdown] Punctuation Definition Quote Begin",
 			"scope": "text.html.markdown punctuation.definition.quote.begin.markdown",
 			"settings": {
-				"foreground": "#a3be8c"
+				"foreground": "#d08770"
 			}
 		},
 		{
@@ -1947,7 +1959,7 @@
 				"text.html.markdown string.other.link.title"
 			],
 			"settings": {
-				"foreground": "#d08770"
+				"foreground": "#a3be8c"
 			}
 		},
 		{
