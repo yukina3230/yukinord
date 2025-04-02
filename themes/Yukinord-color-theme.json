@@ -1002,7 +1002,7 @@
 			"name": "Entity Name Tag",
 			"scope": "entity.name.tag",
 			"settings": {
-				"foreground": "#81a1c1"
+				"foreground": "#88c0d0"
 			}
 		},
 		{
@@ -1094,7 +1094,7 @@
 			"name": "Meta Preprocessor",
 			"scope": "meta.preprocessor",
 			"settings": {
-				"foreground": "#81a1c1"
+				"foreground": "#88c0d0"
 			}
 		},
 		{
@@ -1255,7 +1255,7 @@
 			"name": "Token Info",
 			"scope": "token.info-token",
 			"settings": {
-				"foreground": "#81a1c1"
+				"foreground": "#88c0d0"
 			}
 		},
 		{
@@ -1336,7 +1336,7 @@
 			"name": "[C/CPP] Punctuation Separator Pointer-Access",
 			"scope": "source.c punctuation.separator.pointer-access.c",
 			"settings": {
-				"foreground": "#81a1c1"
+				"foreground": "#88c0d0"
 			}
 		},
 		{
@@ -1391,7 +1391,7 @@
 				"source.css entity.name.tag.wildcard.css"
 			],
 			"settings": {
-				"foreground": "#81a1c1"
+				"foreground": "#88c0d0"
 			}
 		},
 		{
@@ -1509,89 +1509,10 @@
 			}
 		},
 		{
-			"name": "[Java](JavaDoc) Comment Block Documentation HTML Entities",
-			"scope": "source.java comment.block.documentation.javadoc punctuation.definition.entity.html",
-			"settings": {
-				"foreground": "#81a1c1"
-			}
-		},
-		{
-			"name": "[Java](JavaDoc) Constant Other",
-			"scope": "source.java constant.other",
-			"settings": {
-				"foreground": "#d8dee9"
-			}
-		},
-		{
-			"name": "[Java](JavaDoc) Keyword Other Documentation",
-			"scope": "source.java keyword.other.documentation",
-			"settings": {
-				"foreground": "#81a1c1"
-			}
-		},
-		{
-			"name": "[Java](JavaDoc) Keyword Other Documentation Author",
-			"scope": "source.java keyword.other.documentation.author.javadoc",
-			"settings": {
-				"foreground": "#81a1c1"
-			}
-		},
-		{
-			"name": "[Java](JavaDoc) Keyword Other Documentation Directive/Custom",
-			"scope": [
-				"source.java keyword.other.documentation.directive",
-				"source.java keyword.other.documentation.custom"
-			],
-			"settings": {
-				"foreground": "#81a1c1"
-			}
-		},
-		{
-			"name": "[Java](JavaDoc) Keyword Other Documentation See",
-			"scope": "source.java keyword.other.documentation.see.javadoc",
-			"settings": {
-				"foreground": "#81a1c1"
-			}
-		},
-		{
 			"name": "[Java] Meta Method-Call",
 			"scope": "source.java meta.method-call meta.method",
 			"settings": {
 				"foreground": "#88c0d0"
-			}
-		},
-		{
-			"name": "[Java](JavaDoc) Meta Tag Template Link",
-			"scope": [
-				"source.java meta.tag.template.link.javadoc",
-				"source.java string.other.link.title.javadoc"
-			],
-			"settings": {
-				"foreground": "#81a1c1"
-			}
-		},
-		{
-			"name": "[Java](JavaDoc) Meta Tag Template Value",
-			"scope": "source.java meta.tag.template.value.javadoc",
-			"settings": {
-				"foreground": "#81a1c1"
-			}
-		},
-		{
-			"name": "[Java](JavaDoc) Punctuation Definition Keyword",
-			"scope": "source.java punctuation.definition.keyword.javadoc",
-			"settings": {
-				"foreground": "#88c0d0"
-			}
-		},
-		{
-			"name": "[Java](JavaDoc) Punctuation Definition Tag",
-			"scope": [
-				"source.java punctuation.definition.tag.begin.javadoc",
-				"source.java punctuation.definition.tag.end.javadoc"
-			],
-			"settings": {
-				"foreground": "#d8dee97e"
 			}
 		},
 		{
@@ -1691,7 +1612,7 @@
 				"source.js string.template punctuation.definition.template-expression"
 			],
 			"settings": {
-				"foreground": "#81a1c1"
+				"foreground": "#d08770"
 			}
 		},
 		{
@@ -1729,7 +1650,7 @@
 			"name": "[JavaScript] Variable Other Read-Write Alias",
 			"scope": "source.js variable.other.readwrite.alias",
 			"settings": {
-				"foreground": "#81a1c1"
+				"foreground": "#d8dee9"
 			}
 		},
 		{
@@ -1784,20 +1705,6 @@
 			}
 		},
 		{
-			"name": "[HTML] Meta Tag SGML Doctype",
-			"scope": "text.html.basic meta.tag.sgml.doctype",
-			"settings": {
-				"foreground": "#81a1c1"
-			}
-		},
-		{
-			"name": "[HTML] Punctuation Definition Entity",
-			"scope": "text.html.basic punctuation.definition.entity",
-			"settings": {
-				"foreground": "#81a1c1"
-			}
-		},
-		{
 			"name": "[Markdown] Markup Bold",
 			"scope": "text.html.markdown markup.bold",
 			"settings": {
@@ -1842,36 +1749,21 @@
 			"name": "[Markdown] Markup Link",
 			"scope": "text.html.markdown markup.underline.link",
 			"settings": {
-				"fontStyle": "underline",
-				"foreground": "#8fbcbb"
+				"fontStyle": "underline"
 			}
 		},
 		{
 			"name": "[Markdown] Markup List Numbered/Unnumbered",
 			"scope": "text.html.markdown beginning.punctuation.definition.list",
 			"settings": {
-				"foreground": "#81a1c1"
-			}
-		},
-		{
-			"name": "[Markdown] Markup Quote Punctuation Definition",
-			"scope": "text.html.markdown beginning.punctuation.definition.quote",
-			"settings": {
-				"foreground": "#81a1c1"
+				"foreground": "#88c0d0"
 			}
 		},
 		{
 			"name": "[Markdown] Markup Quote Punctuation Definition",
 			"scope": "text.html.markdown markup.quote",
 			"settings": {
-				"foreground": "#d08770"
-			}
-		},
-		{
-			"name": "[Markdown] Markup Math Constant",
-			"scope": "text.html.markdown constant.character.math.tex",
-			"settings": {
-				"foreground": "#81a1c1"
+				"foreground": "#a3be8c"
 			}
 		},
 		{
@@ -1879,13 +1771,6 @@
 			"scope": "text.html.markdown punctuation.definition.function.math.tex",
 			"settings": {
 				"foreground": "#88c0d0"
-			}
-		},
-		{
-			"name": "[Markdown] Markup Math Operator",
-			"scope": "text.html.markdown punctuation.math.operator.latex",
-			"settings": {
-				"foreground": "#81a1c1"
 			}
 		},
 		{
@@ -1917,13 +1802,6 @@
 			}
 		},
 		{
-			"name": "[Markdown] Punctuation Definition Constant/String",
-			"scope": "text.html.markdown punctuation.definition.constant",
-			"settings": {
-				"foreground": "#81a1c1"
-			}
-		},
-		{
 			"name": "[Markdown] Punctuation Definition Heading",
 			"scope": "text.html.markdown punctuation.definition.heading",
 			"settings": {
@@ -1934,7 +1812,7 @@
 			"name": "[Markdown] Punctuation Definition List Begin",
 			"scope": "text.html.markdown punctuation.definition.list.begin.markdown",
 			"settings": {
-				"foreground": "#81a1c1"
+				"foreground": "#88c0d0"
 			}
 		},
 		{
@@ -1948,7 +1826,7 @@
 			"name": "[Markdown] Punctuation Definition Quote Begin",
 			"scope": "text.html.markdown punctuation.definition.quote.begin.markdown",
 			"settings": {
-				"foreground": "#d08770"
+				"foreground": "#a3be8c"
 			}
 		},
 		{
@@ -1959,7 +1837,7 @@
 				"text.html.markdown string.other.link.title"
 			],
 			"settings": {
-				"foreground": "#a3be8c"
+				"foreground": "#d08770"
 			}
 		},
 		{
@@ -2112,20 +1990,6 @@
 			}
 		},
 		{
-			"name": "[TypeScript] Static Class Support",
-			"scope": [
-				"source.ts support.constant.math",
-				"source.ts support.constant.dom",
-				"source.ts support.constant.json",
-				"source.tsx support.constant.math",
-				"source.tsx support.constant.dom",
-				"source.tsx support.constant.json"
-			],
-			"settings": {
-				"foreground": "#81a1c1"
-			}
-		},
-		{
 			"name": "[TypeScript] Storage Modifier",
 			"scope": [
 				"source.ts storage.modifier",
@@ -2175,13 +2039,6 @@
 			],
 			"settings": {
 				"foreground": "#d8dee9"
-			}
-		},
-		{
-			"name": "[XML] Keyword Other Doctype",
-			"scope": "text.xml keyword.other.doctype",
-			"settings": {
-				"foreground": "#81a1c1"
 			}
 		},
 		{

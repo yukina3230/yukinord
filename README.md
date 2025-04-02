@@ -14,6 +14,6 @@ Get Helix version [here](https://github.com/yukina3230/yukinord_helix)
 
 ## **Zed**
 
-Get Zed version [here](https://github.com/yukina3230/yukinord_helix)
+Get Zed version [here](https://github.com/yukina3230/yukinord_zed)
 
 ![""](https://raw.githubusercontent.com/yukina3230/yukinord_zed/main/preview.png)
