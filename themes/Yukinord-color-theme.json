@@ -1712,16 +1712,6 @@
 			}
 		},
 		{
-			"name": "[Markdown] Markup Fenced Code Block",
-			"scope": [
-				"text.html.markdown markup.fenced_code.block",
-				"text.html.markdown markup.fenced_code.block punctuation.definition"
-			],
-			"settings": {
-				"foreground": "#d8dee9"
-			}
-		},
-		{
 			"name": "[Markdown] Markup Heading",
 			"scope": "markup.heading",
 			"settings": {
@@ -1749,7 +1739,8 @@
 			"name": "[Markdown] Markup Link",
 			"scope": "text.html.markdown markup.underline.link",
 			"settings": {
-				"fontStyle": "underline"
+				"fontStyle": "underline",
+				"foreground": "#d08770"
 			}
 		},
 		{
@@ -1837,7 +1828,7 @@
 				"text.html.markdown string.other.link.title"
 			],
 			"settings": {
-				"foreground": "#d08770"
+				"foreground": "#b48ead"
 			}
 		},
 		{
