@@ -360,7 +360,7 @@
 		"gauge.foreground": "default",
 		"gauge.warningBackground": "default",
 		"gauge.warningForeground": "default",
-		"git.blame.editorDecorationForeground": "default",
+		"git.blame.editorDecorationForeground": "#78849b",
 		"gitDecoration.addedResourceForeground": "#a3be8c",
 		"gitDecoration.conflictingResourceForeground": "#d08770",
 		"gitDecoration.deletedResourceForeground": "#bf616a",
