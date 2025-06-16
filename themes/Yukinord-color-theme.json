@@ -1246,14 +1246,14 @@
 			"name": "Support Type",
 			"scope": "support.type",
 			"settings": {
-				"foreground": "#d8dee9"
+				"foreground": "#a3be8c"
 			}
 		},
 		{
 			"name": "Support Type Exception",
 			"scope": "support.type.exception",
 			"settings": {
-				"foreground": "#d8dee9"
+				"foreground": "#a3be8c"
 			}
 		},
 		{
