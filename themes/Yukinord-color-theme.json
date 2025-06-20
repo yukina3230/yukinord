@@ -1556,13 +1556,6 @@
 			}
 		},
 		{
-			"name": "[Java] Storage Type",
-			"scope": "source.java storage.type",
-			"settings": {
-				"foreground": "#a3be8c"
-			}
-		},
-		{
 			"name": "[Java] Storage Type Annotation",
 			"scope": "source.java storage.type.annotation",
 			"settings": {
@@ -1582,13 +1575,6 @@
 			"scope": "source.java storage.type.primitive",
 			"settings": {
 				"foreground": "#a3be8c"
-			}
-		},
-		{
-			"name": "[Java] Variable Language This",
-			"scope": "source.java variable.language.this.java",
-			"settings": {
-				"foreground": "#88c0d0"
 			}
 		},
 		{
@@ -1941,27 +1927,6 @@
 			"scope": "source.css.scss variable.interpolation",
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#d8dee9"
-			}
-		},
-		{
-			"name": "[TOML] Support Type Property-Name",
-			"scope": "source.toml support.type.property-name.toml",
-			"settings": {
-				"foreground": "#d8dee9"
-			}
-		},
-		{
-			"name": "[TOML] Support Type Property-Name Array",
-			"scope": "source.toml support.type.property-name.array.toml",
-			"settings": {
-				"foreground": "#d8dee9"
-			}
-		},
-		{
-			"name": "[TOML] Support Type Property-Name Table",
-			"scope": "source.toml support.type.property-name.table.toml",
-			"settings": {
 				"foreground": "#d8dee9"
 			}
 		},
