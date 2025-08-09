@@ -55,6 +55,7 @@
 		"charts.yellow": "#ebcb8b",
 		"chat.avatarBackground": "default",
 		"chat.avatarForeground": "default",
+		"chat.checkpointSeparator": "default",
 		"chat.editedFileForeground": "default",
 		"chat.linesAddedForeground": "default",
 		"chat.linesRemovedForeground": "default",
