@@ -752,7 +752,7 @@
 		"tab.inactiveBackground": "#14171d",
 		"tab.inactiveForeground": "#d8dee999",
 		"tab.inactiveModifiedBorder": "default",
-		"tab.lastPinnedBorder": "#88c0d0",
+		"tab.lastPinnedBorder": "default",
 		"tab.selectedBackground": "default",
 		"tab.selectedBorderTop": "#88c0d099",
 		"tab.selectedForeground": "default",
