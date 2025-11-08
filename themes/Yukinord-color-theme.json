@@ -1724,6 +1724,48 @@
 			}
 		},
 		{
+			"name": "[Log] Constant",
+			"scope": "text.log log.constant",
+			"settings": {
+				"foreground": "#88c0d0"
+			}
+		},
+		{
+			"name": "[Log] Date",
+			"scope": "text.log log.date",
+			"settings": {
+				"foreground": "#a3be8c"
+			}
+		},
+		{
+			"name": "[Log] String",
+			"scope": "text.log log.string",
+			"settings": {
+				"foreground": "#d08770"
+			}
+		},
+		{
+			"name": "[Log] Error",
+			"scope": "text.log log.error",
+			"settings": {
+				"foreground": "#bf616a"
+			}
+		},
+		{
+			"name": "[Log] Info",
+			"scope": "text.log log.info",
+			"settings": {
+				"foreground": "#81a1c1"
+			}
+		},
+		{
+			"name": "[Log] Warning",
+			"scope": "text.log log.warning",
+			"settings": {
+				"foreground": "#ebcb8b"
+			}
+		},
+		{
 			"name": "[Markdown] Markup Bold",
 			"scope": "text.html.markdown markup.bold",
 			"settings": {
