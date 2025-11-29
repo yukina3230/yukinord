@@ -1607,6 +1607,13 @@
 			}
 		},
 		{
+			"name": "[JavaScript] Keyword Operator Expression Instanceof",
+			"scope": "source.js keyword.operator.expression.instanceof",
+			"settings": {
+				"foreground": "#88c0d0"
+			}
+		},
+		{
 			"name": "[JavaScript] Decorator",
 			"scope": [
 				"source.js punctuation.decorator",
@@ -1710,24 +1717,9 @@
 			}
 		},
 		{
-			"name": "[GDasset] Punctuation Definition String Quoted Double",
-			"scope": "source.gdasset punctuation.definition.string.quoted.double.gdasset",
+			"name": "[HTML] Punctuation Definition Entity",
+			"scope": "punctuation.definition.entity.html",
 			"settings": {
-				"foreground": "#d08770"
-			}
-		},
-		{
-			"name": "[HTML] Constant Character Entity",
-			"scope": "text.html.basic constant.character.entity.html",
-			"settings": {
-				"foreground": "#ebcb8b"
-			}
-		},
-		{
-			"name": "[HTML] Constant Other Inline-Data",
-			"scope": "text.html.basic constant.other.inline-data",
-			"settings": {
-				"fontStyle": "italic",
 				"foreground": "#d08770"
 			}
 		},
