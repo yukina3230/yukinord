@@ -24,6 +24,7 @@
 		"activityErrorBadge.foreground": "#1d2129",
 		"activityWarningBadge.background": "#ebcb8b",
 		"activityWarningBadge.foreground": "#1d2129",
+		"agentSessionReadIndicator.foreground": "default",
 		"badge.background": "#88c0d0",
 		"badge.foreground": "#1d2129",
 		"banner.background": "default",
@@ -162,6 +163,7 @@
 		"editor.foldPlaceholderForeground": "#d8dee999",
 		"editor.foreground": "#d8dee9",
 		"editor.hoverHighlightBackground": "#5e81ac66",
+		"editor.inactiveLineHighlightBackground": "default",
 		"editor.inactiveSelectionBackground": "#5e81ac66",
 		"editor.inlineValuesBackground": "#4c566a",
 		"editor.inlineValuesForeground": "#eceff4",
@@ -241,6 +243,7 @@
 		"editorGutter.addedBackground": "#a3be8c",
 		"editorGutter.addedSecondaryBackground": "#a3be8c",
 		"editorGutter.background": "#1d2129",
+		"editorGutter.commentDraftGlyphForeground": "default",
 		"editorGutter.commentGlyphForeground": "default",
 		"editorGutter.commentRangeForeground": "default",
 		"editorGutter.commentUnresolvedGlyphForeground": "default",
@@ -302,6 +305,7 @@
 		"editorOverviewRuler.background": "default",
 		"editorOverviewRuler.border": "#00000000",
 		"editorOverviewRuler.bracketMatchForeground": "default",
+		"editorOverviewRuler.commentDraftForeground": "default",
 		"editorOverviewRuler.commentForeground": "default",
 		"editorOverviewRuler.commentUnresolvedForeground": "default",
 		"editorOverviewRuler.commonContentForeground": "default",
@@ -343,7 +347,6 @@
 		"editorWarning.background": "default",
 		"editorWarning.border": "#ebcb8b4d",
 		"editorWarning.foreground": "#ebcb8b",
-		"editorWatermark.foreground": "default",
 		"editorWhitespace.foreground": "#616e88",
 		"editorWidget.background": "#1d2129",
 		"editorWidget.border": "#3b4252",
@@ -1247,7 +1250,7 @@
 			"name": "Support Constant",
 			"scope": "support.constant",
 			"settings": {
-				"foreground": "#88c0d0"
+				"foreground": "#d08770"
 			}
 		},
 		{
@@ -1398,7 +1401,8 @@
 			"name": "[CSS] Constant Color",
 			"scope": [
 				"source.css constant.other.color.rgb-value",
-				"source.css support.constant.color.w3c-extended-color-name"
+				"source.css support.constant.color.w3c-extended-color-name",
+				"source.css support.constant.color.w3c-standard-color-name.css",
 			],
 			"settings": {
 				"foreground": "#d08770"
@@ -1419,90 +1423,36 @@
 			}
 		},
 		{
-			"name": "[CSS] Constant Numeric",
-			"scope": "source.css constant.numeric",
-			"settings": {
-				"foreground": "#ebcb8b"
-			}
-		},
-		{
-			"name": "[CSS] Entity Name Tag",
-			"scope": [
-				"source.css entity.name.tag.css",
-				"source.css entity.name.tag.wildcard.css"
-			],
-			"settings": {
-				"foreground": "#88c0d0"
-			}
-		},
-		{
 			"name": "[CSS] Entity Attribute Name",
-			"scope": [
-				"source.css entity.other.attribute-name.class.css",
-				"source.css entity.other.attribute-name.id.css"
-			],
+			"scope": "source.css entity.other.attribute-name",
 			"settings": {
 				"foreground": "#88c0d0"
-			}
-		},
-		{
-			"name": "[CSS](Function) Meta Property-Value",
-			"scope": "source.css meta.property-value",
-			"settings": {
-				"foreground": "#d8dee9"
 			}
 		},
 		{
 			"name": "[CSS] Media Queries",
-			"scope": [
-				"source.css keyword.control.at-rule.media",
-				"source.css keyword.control.at-rule.media punctuation.definition.keyword"
-			],
+			"scope": "source.css keyword.control.at-rule.media",
 			"settings": {
 				"foreground": "#b48ead"
 			}
 		},
 		{
 			"name": "[CSS] Keyword Other Unit",
-			"scope": [
-				"source.css keyword.other.unit.cm.css",
-				"source.css keyword.other.unit.mm.css",
-				"source.css keyword.other.unit.in.css",
-				"source.css keyword.other.unit.px.css",
-				"source.css keyword.other.unit.pt.css",
-				"source.css keyword.other.unit.pc.css",
-				"source.css keyword.other.unit.em.css",
-				"source.css keyword.other.unit.ex.css",
-				"source.css keyword.other.unit.ch.css",
-				"source.css keyword.other.unit.rem.css",
-				"source.css keyword.other.unit.vw.css",
-				"source.css keyword.other.unit.vh.css",
-				"source.css keyword.other.unit.vmin.css",
-				"source.css keyword.other.unit.vmax.css",
-				"source.css keyword.other.unit.percentage.css",
-				"source.css keyword.other.unit.%.css"
-			],
+			"scope": "source.css keyword.other.unit",
 			"settings": {
 				"foreground": "#ebcb8b"
 			}
 		},
 		{
 			"name": "[CSS] Punctuation Definition Constant",
-			"scope": "source.css punctuation.definition.constant.css",
+			"scope": "source.css punctuation.definition.constant",
 			"settings": {
 				"foreground": "#d08770"
 			}
 		},
 		{
-			"name": "[CSS] Punctuation Definition Entity",
-			"scope": "source.css punctuation.definition.entity.css",
-			"settings": {
-				"foreground": "#88c0d0"
-			}
-		},
-		{
 			"name": "[CSS] Punctuation Definition Keyword",
-			"scope": "source.css punctuation.definition.keyword.css",
+			"scope": "source.css punctuation.definition.keyword",
 			"settings": {
 				"foreground": "#b48ead"
 			}
@@ -1614,28 +1564,10 @@
 			}
 		},
 		{
-			"name": "[JavaScript] Decorator",
-			"scope": [
-				"source.js punctuation.decorator",
-				"source.js meta.decorator variable.other.readwrite",
-				"source.js meta.decorator entity.name.function"
-			],
-			"settings": {
-				"foreground": "#d8dee9"
-			}
-		},
-		{
 			"name": "[JavaScript] Meta Object-Literal Key",
 			"scope": "source.js meta.object-literal.key",
 			"settings": {
-				"foreground": "#88c0d0"
-			}
-		},
-		{
-			"name": "[JavaScript](JSDoc) Storage Type Class",
-			"scope": "source.js storage.type.class.jsdoc",
-			"settings": {
-				"foreground": "#a3be8c"
+				"foreground": "#d8dee9"
 			}
 		},
 		{
@@ -1966,110 +1898,6 @@
 			"scope": "source.shell constant.other.option.dash.shell",
 			"settings": {
 				"foreground": "#88c0d0"
-			}
-		},
-		{
-			"name": "[SCSS] Punctuation Definition Interpolation Bracket Curly",
-			"scope": [
-				"source.css.scss punctuation.definition.interpolation.begin.bracket.curly",
-				"source.css.scss punctuation.definition.interpolation.end.bracket.curly"
-			],
-			"settings": {
-				"foreground": "#d8dee9"
-			}
-		},
-		{
-			"name": "[SCSS] Variable Interpolation",
-			"scope": "source.css.scss variable.interpolation",
-			"settings": {
-				"fontStyle": "italic",
-				"foreground": "#d8dee9"
-			}
-		},
-		{
-			"name": "[TypeScript] Decorators",
-			"scope": [
-				"source.ts punctuation.decorator",
-				"source.ts meta.decorator variable.other.readwrite",
-				"source.ts meta.decorator entity.name.function",
-				"source.tsx punctuation.decorator",
-				"source.tsx meta.decorator variable.other.readwrite",
-				"source.tsx meta.decorator entity.name.function"
-			],
-			"settings": {
-				"foreground": "#d8dee9"
-			}
-		},
-		{
-			"name": "[TypeScript] Object-literal keys",
-			"scope": [
-				"source.ts meta.object-literal.key",
-				"source.tsx meta.object-literal.key"
-			],
-			"settings": {
-				"foreground": "#d8dee9"
-			}
-		},
-		{
-			"name": "[TypeScript] Object-literal functions",
-			"scope": [
-				"source.ts meta.object-literal.key entity.name.function",
-				"source.tsx meta.object-literal.key entity.name.function"
-			],
-			"settings": {
-				"foreground": "#88c0d0"
-			}
-		},
-		{
-			"name": "[TypeScript] Storage Modifier",
-			"scope": [
-				"source.ts storage.modifier",
-				"source.tsx storage.modifier"
-			],
-			"settings": {
-				"foreground": "#88c0d0"
-			}
-		},
-		{
-			"name": "[TypeScript] Storage Type",
-			"scope": [
-				"source.ts storage.type",
-				"source.tsx storage.type"
-			],
-			"settings": {
-				"foreground": "#88c0d0"
-			}
-		},
-		{
-			"name": "[TypeScript] Storage Type Function Arrow",
-			"scope": [
-				"source.ts storage.type.function.arrow",
-				"source.tsx storage.type.function.arrow"
-			],
-			"settings": {
-				"foreground": "#d8dee9"
-			}
-		},
-		{
-			"name": "[TypeScript] Variables",
-			"scope": [
-				"source.ts support.variable",
-				"source.tsx support.variable"
-			],
-			"settings": {
-				"foreground": "#d8dee9"
-			}
-		},
-		{
-			"name": "[TypeScript] Parentheses in Template Strings",
-			"scope": [
-				"source.ts meta.embedded.line meta.brace.square",
-				"source.ts meta.embedded.line meta.brace.round",
-				"source.tsx meta.embedded.line meta.brace.square",
-				"source.tsx meta.embedded.line meta.brace.round"
-			],
-			"settings": {
-				"foreground": "#d8dee9"
 			}
 		},
 		{
