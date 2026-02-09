@@ -892,7 +892,7 @@
 		"titleBar.inactiveForeground": "#d8dee999",
 		"toolbar.activeBackground": "#434c5e",
 		"toolbar.hoverBackground": "#434c5e",
-		"toolbar.hoverOutline": "#434c5e",
+		"toolbar.hoverOutline": "default",
 		"tree.inactiveIndentGuidesStroke": "#616e884d",
 		"tree.indentGuidesStroke": "#616e88",
 		"tree.tableColumnsBorder": "default",
