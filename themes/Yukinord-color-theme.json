@@ -11,7 +11,7 @@
 		"activityBar.border": "#3b4252",
 		"activityBar.dropBorder": "default",
 		"activityBar.foreground": "#eceff4",
-		"activityBar.inactiveForeground": "#d8dee999",
+		"activityBar.inactiveForeground": "#d8dee966",
 		"activityBarBadge.background": "#88c0d0",
 		"activityBarBadge.foreground": "#1d2129",
 		"activityBarTop.activeBackground": "default",
@@ -19,7 +19,7 @@
 		"activityBarTop.background": "default",
 		"activityBarTop.dropBorder": "default",
 		"activityBarTop.foreground": "default",
-		"activityBarTop.inactiveForeground": "#d8dee999",
+		"activityBarTop.inactiveForeground": "#d8dee966",
 		"activityErrorBadge.background": "#bf616a",
 		"activityErrorBadge.foreground": "#1d2129",
 		"activityWarningBadge.background": "#ebcb8b",
@@ -87,7 +87,7 @@
 		"commandCenter.debuggingBackground": "#292e39aa",
 		"commandCenter.foreground": "#d8dee9",
 		"commandCenter.inactiveBorder": "#434c5eaa",
-		"commandCenter.inactiveForeground": "#d8dee999",
+		"commandCenter.inactiveForeground": "#d8dee966",
 		"commentsView.resolvedIcon": "default",
 		"commentsView.unresolvedIcon": "default",
 		"contrastActiveBorder": "default",
@@ -147,7 +147,7 @@
 		"diffEditorGutter.removedLineBackground": "#bf616a33",
 		"diffEditorOverview.insertedForeground": "#a3be8c",
 		"diffEditorOverview.removedForeground": "#bf616a",
-		"disabledForeground": "#d8dee999",
+		"disabledForeground": "#d8dee966",
 		"dropdown.background": "#292e39",
 		"dropdown.border": "#3b4252",
 		"dropdown.foreground": "#d8dee9",
@@ -620,10 +620,10 @@
 		"quickInputTitle.background": "default",
 		"radio.activeBackground": "default",
 		"radio.activeBorder": "default",
-		"radio.activeForeground": "#eceff4",
+		"radio.activeForeground": "default",
 		"radio.inactiveBackground": "default",
 		"radio.inactiveBorder": "default",
-		"radio.inactiveForeground": "#d8dee999",
+		"radio.inactiveForeground": "default",
 		"radio.inactiveHoverBackground": "default",
 		"sash.hoverBorder": "#88c0d0",
 		"scmGraph.foreground1": "#ebcb8b",
@@ -889,7 +889,7 @@
 		"titleBar.activeForeground": "#eceff4",
 		"titleBar.border": "#3b4252",
 		"titleBar.inactiveBackground": "#1d2129",
-		"titleBar.inactiveForeground": "#d8dee999",
+		"titleBar.inactiveForeground": "#d8dee966",
 		"toolbar.activeBackground": "#434c5e",
 		"toolbar.hoverBackground": "#434c5e",
 		"toolbar.hoverOutline": "default",
@@ -1695,6 +1695,13 @@
 			"scope": "text.log log.info",
 			"settings": {
 				"foreground": "#81a1c1"
+			}
+		},
+		{
+			"name": "[Log] Invalid",
+			"scope": "code.log invalid",
+			"settings": {
+				"foreground": "#bf616a"
 			}
 		},
 		{

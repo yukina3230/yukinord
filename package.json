@@ -5,7 +5,7 @@
   "repository": "https://github.com/yukina3230/yukinord",
   "publisher": "Yukina",
   "license": "GPL-3.0-only",
-  "version": "0.0.55",
+  "version": "0.0.56",
   "icon": "assets/icon.png",
   "engines": {
     "vscode": "^1.100.0"
