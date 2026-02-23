@@ -574,9 +574,9 @@
 		"panelInput.border": "default",
 		"panelSection.border": "default",
 		"panelSection.dropBackground": "#434c5e99",
-		"panelSectionHeader.background": "default",
-		"panelSectionHeader.border": "default",
-		"panelSectionHeader.foreground": "default",
+		"panelSectionHeader.background": "#1d2129",
+		"panelSectionHeader.border": "#3b4252",
+		"panelSectionHeader.foreground": "#d8dee9",
 		"panelStickyScroll.background": "default",
 		"panelStickyScroll.border": "default",
 		"panelStickyScroll.shadow": "#000000",
@@ -1107,8 +1107,11 @@
 			}
 		},
 		{
-			"name": "Keyword Other New",
-			"scope": "keyword.other.new",
+			"name": "Keyword New",
+			"scope": [
+				"keyword.operator.new",
+				"keyword.other.new"
+			],
 			"settings": {
 				"foreground": "#88c0d0"
 			}
