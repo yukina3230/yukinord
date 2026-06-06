@@ -4,6 +4,8 @@
 	"semanticHighlighting": true,
 	"colors": {
 		"actionBar.toggledBackground": "default",
+		"activeSessionView.background": "default",
+		"activeSessionView.foreground": "default",
 		"activityBar.activeBackground": "default",
 		"activityBar.activeBorder": "#88c0d0",
 		"activityBar.activeFocusBorder": "default",
@@ -413,6 +415,8 @@
 		"gitDecoration.submoduleResourceForeground": "#8fbcbb",
 		"gitDecoration.untrackedResourceForeground": "#81a1c1",
 		"icon.foreground": "#d8dee9",
+		"inactiveSessionView.background": "default",
+		"inactiveSessionView.foreground": "default",
 		"inlineChat.background": "default",
 		"inlineChat.border": "default",
 		"inlineChat.foreground": "default",
